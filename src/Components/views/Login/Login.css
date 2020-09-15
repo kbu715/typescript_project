@@ -1,0 +1,54 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-group {
+  display: flex;
+}
+
+.form-group {
+  width: 300px;
+  height: 35px;
+  padding: 5px 10px;
+  background-color: #fff;
+  border: 1px solid #aaaaaa;
+  border-left: 2px solid #698fff;
+  border-right: 2px solid #698fff;
+  margin-bottom: 1px;
+}
+
+.btn-group {
+  width: 300px;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  height: 35px;
+}
+
+.login-btn,
+.forgot-btn {
+  width: 149.5px;
+  background-color: #698fff;
+  color: #fff;
+  border-width: 0;
+  cursor: pointer;
+  text-align: start;
+}
+
+.login-btn {
+  background-color: #698fff;
+}
+
+.forgot-btn {
+  background-color: #aaaaaa;
+}
+
+.login-body {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
