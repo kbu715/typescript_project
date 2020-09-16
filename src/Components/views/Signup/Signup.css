@@ -33,8 +33,7 @@
   margin-top: 20px;
 }
 
-.login-btn,
-.forgot-btn {
+.signup-btn {
   width: 149.5px;
   border: none;
   color: #ff0000;
@@ -43,7 +42,7 @@
   background-color: #fff;
 }
 
-.login-body {
+.signup-body {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -53,7 +52,7 @@
   transform: translate(-50%, -50%);
 }
 
-.login-title {
+.signup-title {
   width: 100%;
   color: #ff0000;
   margin-bottom: 20px;

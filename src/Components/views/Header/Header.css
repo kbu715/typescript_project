@@ -16,6 +16,12 @@ li {
   font-size: 20px;
   width: 100%;
   height: 100px;
+  padding: 0 20px;
+}
+
+.header-section {
+  position: relative;
+  width: 100%;
 }
 
 .header-logo {

@@ -1,14 +1,14 @@
 import React from "react";
-import "./Login.css";
-function Login() {
+import "./Signup.css";
+function Signup() {
   return (
     <div className="container">
       <div className="row">
         <div className="col-12">
-          <div className="login-body">
+          <div className="signup-body">
             <form className="form-container">
-              <div className="login-title">
-                <h2>Login</h2>
+              <div className="signup-title">
+                <h2>Sign Up</h2>
               </div>
               <input
                 type="email"
@@ -22,12 +22,15 @@ function Login() {
                 placeholder="Password..."
                 className="form-group"
               />
+              <input
+                type="password"
+                name="password-confirm"
+                placeholder="Password Confirm"
+                className="form-group"
+              />
               <div className="btn-group">
-                <button type="submit" className="login-btn">
+                <button type="submit" className="signup-btn">
                   Sumbit
-                </button>
-                <button type="submit" className="forgot-btn">
-                  Forgot?
                 </button>
               </div>
             </form>
@@ -38,4 +41,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default Signup;

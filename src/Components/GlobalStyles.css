@@ -5,7 +5,7 @@
 
 body {
   font-family: "DM Sans", sans-serif;
-  background-color: #f2f2f2;
+  background-color: #fff;
 }
 
 /* Reset CSS */
@@ -31,4 +31,5 @@ textarea:focus,
 textarea:active {
   box-shadow: none;
   outline: none;
+  background-color: #fff;
 }
